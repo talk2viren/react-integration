@@ -1,0 +1,87 @@
+import React, { useState } from "react";
+import { SearchOutlined } from "@ant-design/icons";
+import { Button, Divider, Flex, Form, Radio, Space, Tooltip } from "antd";
+import FavorateColor from "./components/MyCrud.js";
+import Car from "./components/Car";
+import PersonList from "./components/PersonList.js";
+import MainPage from "./components/MainPage.js";
+import CrudApp from "./crud/CrudApp.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import TestBody from "./components/TestBody.js";
+import CRUD from "./components/CRUD.js";
+import HtmlBS from "./components/HtmlBS.js";
+import CRUDOperations1 from "./components/CRUDOperations1.js";
+import MyCrud from "./components/MyCrud.js";
+import W3Parent from "./testcomp/W3Parent.jsx";
+// import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
+// import Routers from "./Routers";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Blogs from "./pages/Blogs";
+import Layout from "./pages/Layout";
+import NoPage from "./pages/NoPage";
+import W3Memo from "./testcomp/W3Memo.jsx";
+import MyComponent from "./testcomp/MyComponent.jsx";
+
+const App = () => {
+  return (
+    <>
+      {/* <FavorateColor />
+      <br></br>
+      <Car />
+      <PersonList />
+      <MainPage /> */}
+      {/* <h1>Test</h1> */}
+      {/* <CrudApp /> */}
+      {/* <TestBody /> */}
+      {/* <CrudApp /> */}
+      {/* <CRUDOperations1 /> */}
+      <p></p>
+      {/* <CRUD /> */}
+      {/* <HtmlBS /> */}
+      {/* this is working my simple comp */}
+      {/* <MyCrud /> */}
+      {/* my w3 examples */}
+      {/* <W3Parent /> */}
+      <h1 style={{ color: "red" }}>React Router</h1>
+      {/* <W3Memo /> */}
+      <MyComponent />
+
+      {/* React Router Example */}
+      {/* <BrowserRouter>
+        {/* <nav>
+          <ul>
+            <li>
+              <Link to="/home">Home</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/blogs">Blogs</Link>
+            </li>
+            <li>
+              <Link to="/layout">Layout</Link>
+            </li>
+            <li>
+              <Link to="/nopage">NoPage</Link>
+            </li>
+          </ul>
+        </nav> */}
+
+      {/* <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/home" element={<NoPage />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/layout" element={<Layout />} />
+            <Route path="*" element={<NoPage />} />{" "}
+          </Route>
+        </Routes> */}
+      {/* </BrowserRouter>  */}
+    </>
+  );
+};
+export default App;

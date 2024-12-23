@@ -1,4 +1,4 @@
-// Viren Crud operation from scrach
+// Viren Crud operation from scrach working
 import { useState } from "react";
 import { Button, FormControl, Form, Alert } from "react-bootstrap";
 
@@ -71,7 +71,7 @@ function MyCrud() {
           name="empName"
           value={userData.empName}
           onChange={handleInputChange}
-          placeholder="Employee Name"
+          placeholder="Employee Name "
         />{" "}
       </Form.Group>
 
